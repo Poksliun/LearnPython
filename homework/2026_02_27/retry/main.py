@@ -13,4 +13,4 @@ def random_exception() -> float:
 
 if __name__ == "__main__":
     for _ in range(100):
-        print("result:", random_exception())
+        print("result " + str(_)+ ": ", random_exception())
